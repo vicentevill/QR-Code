@@ -1,0 +1,49 @@
+html * {
+    /* background-color: #d5e1ef6b; */
+    /* background: #830ca156; 
+    outline: 2px dotted; */
+    margin: 0;
+}
+
+html{
+background-color: #d5e1ef;
+}
+
+body{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Outfit', sans-serif;
+}
+main{
+    background: white;
+    height: 510px;
+    width: 326px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 15px;
+    align-items: center;
+    gap: 15px;
+    box-shadow: 0px 0px 50px #b9c3ce;
+}
+
+#qrCode{
+    border-radius: 15px;
+    width: 100%;
+}
+
+h1{
+    color: #25314b;
+    font-size: 25px;
+    margin: 15px 0 0 0;
+}
+
+p{
+    color: #6b6f7b;
+    width: 260px;
+}
+
